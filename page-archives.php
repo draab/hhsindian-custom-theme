@@ -25,7 +25,7 @@ get_header(); ?>
 	<div id="primary" class="content-area">
 		<div id="content" class="site-content" role="main">
 
-			
+			<h1>Site Wide Archives</h1>
 
 		</div><!-- #content -->
 	</div><!-- #primary -->

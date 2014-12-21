@@ -23,8 +23,30 @@ get_header(); ?>
 			<article>
 				<header class="entry-header"><h1 class="entry-title">The Indian's Archives</h1></header>
 					<div class="entry-content">
-				<h1>Stories</h1>
-					<div id="archivelist">
+					<div id="archivelist" class="2014-2015">
+					<h4>2014-2015</h4>
+						<ul>
+						<?php
+ 
+						// The Query
+						query_posts( array ( 'tag' => '2014-2015', 'posts_per_page' => -1 ) );
+ 
+						// The Loop
+						while ( have_posts() ) : the_post(); ?>
+							<li>
+							<em><?php the_time('M'); ?> <?php the_time('j'); ?> <?php the_time('Y'); ?></em> &nbsp; <a href="<?php the_permalink() ?>" title="<?php the_title(); ?>"><?php the_title(); ?></a> (<?php the_author();?>)
+							</li>
+ 
+						<?php endwhile;
+ 
+						// Reset Query
+						wp_reset_query();
+ 
+						?>
+						</ul>
+					</div>
+					<div id="archivelist" class="2013-2014">
+					<h4>2013-2014</h4>
 						<ul>
 						<?php
  
@@ -45,8 +67,6 @@ get_header(); ?>
 						?>
 						</ul>
 					</div>
-				<h1>Authors</h1>
-				<?php wp_list_authors('show_fullname=1&optioncount=1&orderby=post_count&order=DESC&exclude=1'); ?>
 				<p></p>
 			</article>
 		</div><!-- #content -->

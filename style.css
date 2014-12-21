@@ -12,6 +12,8 @@
  Text Domain:  hhsindian-custom-theme
 */
 
+#archivelist li		{list-style:none;}
+
 body { 
 	background-color: #337ebf;
 	margin: auto;
@@ -25,6 +27,7 @@ margin-right: auto;
 button, .button, .contributor-posts-link, input[type="button"], input[type="reset"], input[type="submit"], .search-toggle, .hentry .mejs-controls .mejs-time-rail .mejs-time-current, .hentry .mejs-overlay:hover .mejs-overlay-button, .widget button, .widget .button, .widget input[type="button"], .widget input[type="reset"], .widget input[type="submit"], .widget_calendar tbody a, .content-sidebar .widget input[type="button"], .content-sidebar .widget input[type="reset"], .content-sidebar .widget input[type="submit"], .slider-control-paging .slider-active:before, .slider-control-paging .slider-active:hover:before, .slider-direction-nav a:hover, .ie8 .primary-navigation ul ul, .ie8 .secondary-navigation ul ul, .ie8 .primary-navigation li:hover > a, .ie8 .primary-navigation li.focus > a, .ie8 .secondary-navigation li:hover > a, .ie8 .secondary-navigation li.focus > a {
 background-color: #fffb38;
 }
+
 
 .paging-navigation, .content-sidebar .widget .widget-title {
 border-top-color: #005fef;

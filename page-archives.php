@@ -23,8 +23,8 @@ get_header(); ?>
 			<article>
 				<header class="entry-header"><h1 class="entry-title">The Indian's Archives</h1></header>
 					<div class="entry-content">
-					<div id="archivelist" class="2014-2015">
-					<h4>2014-2015</h4>
+						<div id="archivelist" class="2014-2015">
+							<h4>2014-2015</h4>
 						<ul>
 						<?php
  
@@ -45,8 +45,8 @@ get_header(); ?>
 						?>
 						</ul>
 					</div>
-					<div id="archivelist" class="2013-2014">
-					<h4>2013-2014</h4>
+						<div id="archivelist" class="2013-2014">
+							<h4>2013-2014</h4>
 						<ul>
 						<?php
  
@@ -67,7 +67,8 @@ get_header(); ?>
 						?>
 						</ul>
 					</div>
-				<p></p>
+						<p></p>
+					</div>
 			</article>
 		</div><!-- #content -->
 	</div><!-- #primary -->

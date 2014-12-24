@@ -12,6 +12,39 @@
  Text Domain:  hhsindian-custom-theme
 */
 
+
+@media screen and (min-width: 783px){.primary-navigation{float: right;margin-left: 20px;}a { transition: all .5s ease; }}
+.site {margin: 0 auto;max-width: 1260px;width: 100%;}.site-header{max-width: 1260px;}
+		@media screen and (min-width: 1110px) {.archive-header,.comments-area,.image-navigation,.page-header,.page-content,.post-navigation,.site-content .entry-header,
+	    .site-content .entry-content,.site-content .entry-summary,.site-content footer.entry-meta{padding-left: 55px;}}
+
+	    .site-content .entry-header,.site-content .entry-content,.site-content .entry-summary,.site-content .entry-meta,.page-content 
+		{max-width: 474px;}.comments-area{max-width: 474px;}.post-navigation, .image-navigation{max-width: 474px;}
+.hentry{max-width: 1038px;}
+	    img.size-full,img.size-large,.wp-post-image,.post-thumbnail img,.site-content .post-thumbnail img{max-height: 572px;}
+
+	
+
+		.slider .featured-content .hentry{max-height: 500px;}.slider .featured-content{max-width: 1600px;
+		margin: 0px auto;}.slider .featured-content .post-thumbnail img{max-width: 1600px;width: 100%;}
+		.slider .featured-content .post-thumbnail{background:none;}.slider .featured-content a.post-thumbnail:hover{background-color:transparent;}
+
+
+	    @media screen and (min-width: 1008px) {
+		    .grid .featured-content .hentry {
+		        width: 24.999999975%;
+	        }
+	        .grid .featured-content .hentry:nth-child( 3n+1 ) {
+		        clear: none;
+	        }
+	        .grid .featured-content .hentry:nth-child( 4n+1 ) {
+		        clear: both;
+	        }
+	    }
+
+.site-content .hentry{border-top: 1px solid rgba(0, 0, 0, 0.1);}
+	.site-content .hentry:first-child{border-top: 0;}
+
 #archivelist li		{list-style:none;}
 
 body { 
